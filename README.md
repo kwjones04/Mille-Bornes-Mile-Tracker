@@ -1,7 +1,7 @@
-# Milles Bornes Mile Tracker
+# Mille Bornes Mile Tracker
 
 ## Description
-This program is used to keep track of the score in the card game Milles Bornes, where the goal is to get 1000 points, or miles.
+This program is used to keep track of the score in the card game Mille Bornes, where the goal is to get 1000 points, or miles.
 
 ### What this program does
 - When user clicks on mile number, add mile to total score
