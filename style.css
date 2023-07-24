@@ -47,6 +47,7 @@ button:hover {
 .miles {
     display: grid;
     grid-template-columns: repeat(2, 140px);
+
 }
 
 .box {
@@ -54,6 +55,8 @@ button:hover {
     width: 100px;
     border: 2px solid #ffffff;
     margin: 20px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .box:hover {
