@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Milles Bornes Mile Tracker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <div id="score-div">
+                <button onclick="resetMiles()">Reset</button>
+                <p id="score-text">0</p>
+            </div>
+            <div class="miles">
+                <div class="box" onclick="addMiles(25)">
+                    <p>25</p>
+                </div>
+                <div class="box" onclick="addMiles(50)">
+                    <p>50</p>
+                </div>
+                <div class="box" onclick="addMiles(75)">
+                    <p>75</p>
+                </div>
+                <div class="box" onclick="addMiles(100)">
+                    <p>100</p>
+                </div>
+                <div class="box" onclick="addMiles(200)">
+                    <p>200</p>
+                </div>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2d2d2d;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background-color: #000000;
+    font-family: 'Nunito Sans', sans-serif;    
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #2e2e2e;
+    cursor: pointer;
+}
+
+#score-div {
+    margin: 20px;
+    text-align: center;
+}
+
+#score-text {
+    font-size: 50px;
+}
+
+.miles {
+    display: grid;
+    grid-template-columns: repeat(2, 140px);
+}
+
+.box {
+    height: 150px;
+    width: 100px;
+    border: 2px solid #ffffff;
+    margin: 20px;
+}
